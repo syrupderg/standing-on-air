@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "standing-on-air",
+	"version": "${version}",
+	"name": "Standing On Air",
+	"description": "Remove 'Player standing on air - force-sending blocks below' message from logs.",
+	"authors": [
+		"syrupderg"
+	],
+	"contact": {
+		"homepage": "https://github.com/syrupderg/standing-on-air",
+		"sources": "https://github.com/syrupderg/standing-on-air"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/standing-on-air/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.syrup.sao.StandingOnAir"
+		]
+	},
+	"mixins": [
+		"standing-on-air.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25"
+	}
+}

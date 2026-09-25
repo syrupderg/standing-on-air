@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "dev.syrup.sao.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "ServerGamePacketListenerImplMixin"
+  ],
+  "server": [],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
