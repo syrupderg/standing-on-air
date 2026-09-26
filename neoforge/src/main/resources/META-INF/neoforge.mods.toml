@@ -1,0 +1,28 @@
+modLoader = "javafml"
+loaderVersion = "*"
+license = "GPL-3.0"
+
+[[mods]]
+modId = "standing_on_air"
+version = "${version}"
+displayName = "Standing On Air"
+description = "Fixes 'Player standing on air - force-sending blocks below' message or MC-311727, checks support blocks after applying player movement."
+authors = "syrupderg"
+logoFile = "assets/standing_on_air/icon.png"
+
+[[mixins]]
+config = "standing-on-air.mixins.json"
+
+[[dependencies.standing_on_air]]
+modId = "neoforge"
+type = "required"
+versionRange = "*"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.standing_on_air]]
+modId = "minecraft"
+type = "required"
+versionRange = "[26.3-alpha, 26.4)"
+ordering = "NONE"
+side = "BOTH"

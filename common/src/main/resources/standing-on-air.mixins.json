@@ -5,8 +5,6 @@
   "mixins": [
     "ServerGamePacketListenerImplMixin"
   ],
-  "server": [],
-  "client": [],
   "injectors": {
     "defaultRequire": 1
   }

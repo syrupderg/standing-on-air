@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "standing_on_air",
+  "version": "${version}",
+  "name": "Standing On Air",
+  "description": "Fixes 'Player standing on air - force-sending blocks below' message or MC-311727, checks support blocks after applying player movement.",
+  "authors": ["syrupderg"],
+  "license": "GPL-3.0",
+  "icon": "assets/standing_on_air/icon.png",
+  "environment": "*",
+  "mixins": ["standing-on-air.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": [
+      "~26.3",
+      "26.3-pre2",
+      "26.3-pre.2",
+      "26.3-pre-2"
+    ],
+    "java": ">=25"
+  }
+}
